@@ -1,0 +1,10 @@
+{
+  "menu": {
+    "header": "File",
+    "items": [
+      "Open",
+      "Save As",
+      "Close"
+    ]
+  }
+}

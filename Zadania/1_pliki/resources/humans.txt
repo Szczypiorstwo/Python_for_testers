@@ -1,0 +1,70 @@
+* TEAM */
+	Chef:Juanjo Bernabeu
+	Contact: -
+	Twitter: -
+	From:Barcelona, Catalonia, Spain
+
+	UI developer: Maria Macias
+	Twitter: -
+	From:Barcelona, Catalonia, Spain
+
+	One eyed illustrator: Carlos Mañas
+	Twitter: -
+	From:Madrid, Spain
+
+	Standard Man: Abel Cabans
+	Twitter: -
+	From:Barcelona, Catalonia, Spain
+
+	Web designer: Abel Sutilo
+	Twitter: -
+	From:Sevilla, Andalucia, Spain
+
+/* THANKS */
+
+	(First) EN Translator: Jos Flores
+	Twitter: -
+	From: Barcelona, Catalonia, Spain
+
+	CA Translator: Eva AC
+	Twitter: -
+	From:Barcelona, Catalonia, Spain
+
+	EN Translator: Marta Armada
+	Twitter: -
+	From: Barcelona, Catalonia, Spain
+
+	RU Translator: Alexey Bass
+	Twitter: -
+	Location: Israel, Netanya
+
+	RU Translator: Vladimir Epifanov
+	Twitter: -
+	Location: Moscow, Russia
+
+	NL Translator: Rowdy Rabouw
+	Twitter: -
+	Location: Gouda, The Netherlands
+
+	DE Translator: Dennis Fischer
+	Twitter: -
+	Location: Düsseldorf / Germany
+
+	CZ Translator: Daniel Kršiak
+	Twitter: -
+	Location: Czech
+
+	ZH Translator: Ana Villalba
+	Location: Spain
+
+	JA Translator: Clémence Haure
+	Location: Spain
+
+	FR Translator: Thibaud Desodt
+	Location: Belgium
+
+/* SITE */
+	Last update:2012/02/04
+	Language: Català / Czech / Deutsch / English / Castellano / Japanese / Dutch / Russian / Chinese
+	Doctype:HTML5
+	IDE: Sublime Text, Notepad++, FileZilla, Photoshop

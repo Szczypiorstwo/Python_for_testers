@@ -1,0 +1,5 @@
+Stwórz klasę która:
+- Za pomocą REST API wydobędzie wpisy dodane pomiędzy zadanym zakresem czasu.
+- Umożliwi zapis wydobytych wpisów w dowolnym formacie pliku:
+    txt, csv, json, xml
+- Każda przeprowadzona operacja powinna zostać zalogowana w pliku zadanie.log

@@ -1,0 +1,30 @@
+Jak zainstalować i uruchomić lokalnie Wordpress
+Nie jest to instrukcja mojego autorstwa ale przeprowadzi was przez instalacje krok po kroku:
+https://premium.wpmudev.org/blog/setting-up-xampp/
+
+wtyczki WP, ktore przydadzą się aby umozliwic logowanie sie przy pomocy Basic Auth:
+Application Passwords
+VA Simple Basic Auth
+
+Zawartosc pliku .htaccess z katalogu WP nalezy podmienic na:
+
+# BEGIN VA SIMPLE BASIC AUTH
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+</IfModule>
+# END VA SIMPLE BASIC AUTH
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+RewriteBase /wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress/index.php [L]
+</IfModule>
+
+# END WordPress
